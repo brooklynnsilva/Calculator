@@ -127,5 +127,19 @@ namespace Calculator
                 MessageBox.Show(E.Message);
             }
         }
+
+        private void Calculate_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DataTable Calc = new DataTable();
+                var ans = Calc.Compute(Output.Text, "");
+                Output.Text = ans.ToString();
+            }
+            catch (Exception E)
+            {
+                MessageBox.Show(E.Message);
+            }
+        }
     }
 }
