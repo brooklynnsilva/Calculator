@@ -52,205 +52,246 @@
             // 
             // Cbut
             // 
+            this.Cbut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Cbut.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cbut.Location = new System.Drawing.Point(12, 355);
             this.Cbut.Name = "Cbut";
             this.Cbut.Size = new System.Drawing.Size(53, 59);
             this.Cbut.TabIndex = 19;
             this.Cbut.Text = "C";
-            this.Cbut.UseVisualStyleBackColor = true;
+            this.Cbut.UseVisualStyleBackColor = false;
             this.Cbut.Click += new System.EventHandler(this.Cbut_Click);
             // 
             // Num0
             // 
+            this.Num0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Num0.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num0.Location = new System.Drawing.Point(80, 355);
             this.Num0.Name = "Num0";
             this.Num0.Size = new System.Drawing.Size(53, 59);
             this.Num0.TabIndex = 10;
             this.Num0.Text = "0";
-            this.Num0.UseVisualStyleBackColor = true;
+            this.Num0.UseVisualStyleBackColor = false;
             this.Num0.Click += new System.EventHandler(this.Num0_Click);
             // 
             // Dot
             // 
+            this.Dot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Dot.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Dot.Location = new System.Drawing.Point(149, 355);
             this.Dot.Name = "Dot";
             this.Dot.Size = new System.Drawing.Size(53, 59);
             this.Dot.TabIndex = 11;
             this.Dot.Text = ".";
-            this.Dot.UseVisualStyleBackColor = true;
+            this.Dot.UseVisualStyleBackColor = false;
             this.Dot.Click += new System.EventHandler(this.Dot_Click);
             // 
             // Calculate
             // 
+            this.Calculate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Calculate.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Calculate.Location = new System.Drawing.Point(240, 355);
             this.Calculate.Name = "Calculate";
             this.Calculate.Size = new System.Drawing.Size(120, 59);
             this.Calculate.TabIndex = 18;
             this.Calculate.Text = "Calculate";
-            this.Calculate.UseVisualStyleBackColor = true;
+            this.Calculate.UseVisualStyleBackColor = false;
             this.Calculate.Click += new System.EventHandler(this.Calculate_Click);
             // 
             // Num1
             // 
+            this.Num1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Num1.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num1.Location = new System.Drawing.Point(12, 270);
             this.Num1.Name = "Num1";
             this.Num1.Size = new System.Drawing.Size(53, 59);
             this.Num1.TabIndex = 7;
             this.Num1.Text = "1";
-            this.Num1.UseVisualStyleBackColor = true;
+            this.Num1.UseVisualStyleBackColor = false;
             this.Num1.Click += new System.EventHandler(this.Num1_Click);
             // 
             // Num2
             // 
+            this.Num2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Num2.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num2.Location = new System.Drawing.Point(80, 270);
             this.Num2.Name = "Num2";
             this.Num2.Size = new System.Drawing.Size(53, 59);
             this.Num2.TabIndex = 8;
             this.Num2.Text = "2";
-            this.Num2.UseVisualStyleBackColor = true;
+            this.Num2.UseVisualStyleBackColor = false;
             this.Num2.Click += new System.EventHandler(this.Num2_Click);
             // 
             // Num3
             // 
+            this.Num3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Num3.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num3.Location = new System.Drawing.Point(149, 270);
             this.Num3.Name = "Num3";
             this.Num3.Size = new System.Drawing.Size(53, 59);
             this.Num3.TabIndex = 9;
             this.Num3.Text = "3";
-            this.Num3.UseVisualStyleBackColor = true;
+            this.Num3.UseVisualStyleBackColor = false;
             this.Num3.Click += new System.EventHandler(this.Num3_Click);
             // 
             // Pow
             // 
+            this.Pow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Pow.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Pow.Location = new System.Drawing.Point(240, 270);
             this.Pow.Name = "Pow";
             this.Pow.Size = new System.Drawing.Size(53, 59);
             this.Pow.TabIndex = 16;
             this.Pow.Text = "Pow 2";
-            this.Pow.UseVisualStyleBackColor = true;
+            this.Pow.UseVisualStyleBackColor = false;
             this.Pow.Click += new System.EventHandler(this.Pow_Click);
             // 
             // Sqrt
             // 
+            this.Sqrt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Sqrt.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Sqrt.Location = new System.Drawing.Point(307, 270);
             this.Sqrt.Name = "Sqrt";
             this.Sqrt.Size = new System.Drawing.Size(53, 59);
             this.Sqrt.TabIndex = 17;
             this.Sqrt.Text = "Sqrt";
-            this.Sqrt.UseVisualStyleBackColor = true;
+            this.Sqrt.UseVisualStyleBackColor = false;
             this.Sqrt.Click += new System.EventHandler(this.Sqrt_Click);
             // 
             // Minus
             // 
+            this.Minus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Minus.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Minus.Location = new System.Drawing.Point(307, 184);
             this.Minus.Name = "Minus";
             this.Minus.Size = new System.Drawing.Size(53, 59);
             this.Minus.TabIndex = 15;
             this.Minus.Text = "-";
-            this.Minus.UseVisualStyleBackColor = true;
+            this.Minus.UseVisualStyleBackColor = false;
             this.Minus.Click += new System.EventHandler(this.Minus_Click);
             // 
             // Sum
             // 
+            this.Sum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Sum.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Sum.Location = new System.Drawing.Point(240, 184);
             this.Sum.Name = "Sum";
             this.Sum.Size = new System.Drawing.Size(53, 59);
             this.Sum.TabIndex = 14;
             this.Sum.Text = "+";
-            this.Sum.UseVisualStyleBackColor = true;
+            this.Sum.UseVisualStyleBackColor = false;
             this.Sum.Click += new System.EventHandler(this.Sum_Click);
             // 
             // Num6
             // 
+            this.Num6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Num6.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num6.Location = new System.Drawing.Point(149, 184);
             this.Num6.Name = "Num6";
             this.Num6.Size = new System.Drawing.Size(53, 59);
             this.Num6.TabIndex = 6;
             this.Num6.Text = "6";
-            this.Num6.UseVisualStyleBackColor = true;
+            this.Num6.UseVisualStyleBackColor = false;
             this.Num6.Click += new System.EventHandler(this.Num6_Click);
             // 
             // Num5
             // 
+            this.Num5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Num5.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num5.Location = new System.Drawing.Point(80, 184);
             this.Num5.Name = "Num5";
             this.Num5.Size = new System.Drawing.Size(53, 59);
             this.Num5.TabIndex = 5;
             this.Num5.Text = "5";
-            this.Num5.UseVisualStyleBackColor = true;
+            this.Num5.UseVisualStyleBackColor = false;
             this.Num5.Click += new System.EventHandler(this.Num5_Click);
             // 
             // Num4
             // 
+            this.Num4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Num4.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num4.Location = new System.Drawing.Point(12, 184);
             this.Num4.Name = "Num4";
             this.Num4.Size = new System.Drawing.Size(53, 59);
             this.Num4.TabIndex = 4;
             this.Num4.Text = "4";
-            this.Num4.UseVisualStyleBackColor = true;
+            this.Num4.UseVisualStyleBackColor = false;
             this.Num4.Click += new System.EventHandler(this.Num4_Click);
             // 
             // Div
             // 
+            this.Div.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Div.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Div.Location = new System.Drawing.Point(307, 98);
             this.Div.Name = "Div";
             this.Div.Size = new System.Drawing.Size(53, 59);
             this.Div.TabIndex = 13;
             this.Div.Text = "/";
-            this.Div.UseVisualStyleBackColor = true;
+            this.Div.UseVisualStyleBackColor = false;
             this.Div.Click += new System.EventHandler(this.Div_Click);
             // 
             // Multi
             // 
+            this.Multi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Multi.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Multi.Location = new System.Drawing.Point(240, 98);
             this.Multi.Name = "Multi";
             this.Multi.Size = new System.Drawing.Size(53, 59);
             this.Multi.TabIndex = 12;
             this.Multi.Text = "*";
-            this.Multi.UseVisualStyleBackColor = true;
+            this.Multi.UseVisualStyleBackColor = false;
             this.Multi.Click += new System.EventHandler(this.Multi_Click);
             // 
             // Num9
             // 
+            this.Num9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Num9.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num9.Location = new System.Drawing.Point(149, 98);
             this.Num9.Name = "Num9";
             this.Num9.Size = new System.Drawing.Size(53, 59);
             this.Num9.TabIndex = 3;
             this.Num9.Text = "9";
-            this.Num9.UseVisualStyleBackColor = true;
+            this.Num9.UseVisualStyleBackColor = false;
             this.Num9.Click += new System.EventHandler(this.Num9_Click);
             // 
             // Num8
             // 
+            this.Num8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Num8.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num8.Location = new System.Drawing.Point(80, 98);
             this.Num8.Name = "Num8";
             this.Num8.Size = new System.Drawing.Size(53, 59);
             this.Num8.TabIndex = 2;
             this.Num8.Text = "8";
-            this.Num8.UseVisualStyleBackColor = true;
+            this.Num8.UseVisualStyleBackColor = false;
             this.Num8.Click += new System.EventHandler(this.Num8_Click);
             // 
             // Num7
             // 
+            this.Num7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Num7.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num7.Location = new System.Drawing.Point(12, 98);
             this.Num7.Name = "Num7";
             this.Num7.Size = new System.Drawing.Size(53, 59);
             this.Num7.TabIndex = 1;
             this.Num7.Text = "7";
-            this.Num7.UseVisualStyleBackColor = true;
+            this.Num7.UseVisualStyleBackColor = false;
             this.Num7.Click += new System.EventHandler(this.Num7_Click);
             // 
             // Output
             // 
+            this.Output.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Output.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Output.Location = new System.Drawing.Point(63, 28);
             this.Output.Name = "Output";
-            this.Output.Size = new System.Drawing.Size(256, 20);
+            this.Output.Size = new System.Drawing.Size(256, 29);
             this.Output.TabIndex = 19;
             // 
             // Calc_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(372, 454);
             this.Controls.Add(this.Output);
             this.Controls.Add(this.Div);
