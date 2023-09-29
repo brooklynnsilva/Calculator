@@ -127,6 +127,7 @@
             this.Pow.TabIndex = 16;
             this.Pow.Text = "Pow 2";
             this.Pow.UseVisualStyleBackColor = true;
+            this.Pow.Click += new System.EventHandler(this.Pow_Click);
             // 
             // Sqrt
             // 
@@ -136,6 +137,7 @@
             this.Sqrt.TabIndex = 17;
             this.Sqrt.Text = "Sqrt";
             this.Sqrt.UseVisualStyleBackColor = true;
+            this.Sqrt.Click += new System.EventHandler(this.Sqrt_Click);
             // 
             // Minus
             // 
