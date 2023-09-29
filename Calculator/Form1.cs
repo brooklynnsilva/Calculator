@@ -75,5 +75,10 @@ namespace Calculator
                 Output.Text += ".";
             }
         }
+
+        private void Cbut_Click(object sender, EventArgs e)
+        {
+            Output.Text = "";
+        }
     }
 }

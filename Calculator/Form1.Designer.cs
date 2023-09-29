@@ -58,6 +58,7 @@
             this.Cbut.TabIndex = 19;
             this.Cbut.Text = "C";
             this.Cbut.UseVisualStyleBackColor = true;
+            this.Cbut.Click += new System.EventHandler(this.Cbut_Click);
             // 
             // Num0
             // 
